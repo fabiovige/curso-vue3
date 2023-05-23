@@ -1,6 +1,6 @@
 <template>
-    <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
+  <ul>
+    <li><RouterLink to="/">Home</RouterLink></li>
+    <li><RouterLink to="/invoices">Invoices</RouterLink></li>
+  </ul>
 </template>
